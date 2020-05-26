@@ -6,7 +6,6 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
-    // 'mongodb://your DataBase location herf and config'
     MongooseModule.forRoot('mongodb://shean:shean012@www.shean.net.cn:27017/testDB', { useNewUrlParser: true }),
     InfoModule
   ],
